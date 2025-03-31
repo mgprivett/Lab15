@@ -3,7 +3,7 @@ import express from 'express';
 const app = express();
 
 app.get('/index.html', (request, response) => {
-  response.send('Hello from Index');
+  response.send('Hello from Cloud Application Development');
 })
 
 app.get('/extra.html', (request, response) => {
